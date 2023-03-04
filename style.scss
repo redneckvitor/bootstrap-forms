@@ -1,0 +1,46 @@
+// Elementos globais
+$primary-color: #ffffff;
+$secondary-color: #202020;
+$tertiary-color: #40b440;
+
+::selection {
+  background-color: $tertiary-color;
+  color: $primary-color;
+}
+
+.prosseguir {
+  background-color: $tertiary-color;
+  transition: 0.4s;
+
+  &:hover {
+    background-color: darken($color: $tertiary-color, $amount: 10);
+  }
+  &:active {
+    border-color: red;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+// Página home
+//
+
+// Página Etapa-1
+//
+.body-etapa-1 {
+  background: unset;
+  color: white;
+}
+
+.etapa-1-section-1 {
+  border: 2px solid red;
+  width: 30%;
+  height: auto;
+
+  background-color: $secondary-color;
+}
