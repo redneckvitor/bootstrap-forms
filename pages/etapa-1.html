@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Boostrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Etapa 1</title>
+  </head>
+  <body class="body-etapa-1 p-5">
+    <!-- Container do formulário abaixo -->
+    <section class="container etapa-1-section-1 mt-5">
+      <h1 class="display-4">Vamos começar!</h1>
+      <p>Informe dados básicos para começar o cadastro</p>
+      <!-- Inputs do formulário -->
+      <form>
+        <!-- Campo do nome  -->
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Seu nome</label>
+          <input
+            type="name"
+            class="form-control"
+            id="exampleInputEmail1"
+            placeholder="Seu nome completo"
+          />
+        </div>
+        <!--  -->
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Criar senha</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+
+        <div class="container mb-3 text-center">
+          <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
