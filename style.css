@@ -3,22 +3,39 @@
   color: #ffffff;
 }
 
-.prosseguir {
-  background-color: #40b440;
-  transition: 0.4s;
-}
-.prosseguir:hover {
-  background-color: #338e33;
-}
-.prosseguir:active {
-  border-color: red;
-}
-
 body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100vh;
+}
+
+.button-prosseguir {
+  background-color: #40b440;
+  transition: 0.4s;
+}
+.button-prosseguir:hover {
+  background-color: #338e33;
+}
+
+.progress-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.progress-element {
+  width: 10px;
+  height: 10px;
+  border: 2px solid black;
+}
+
+.progress-element-active {
+  width: 10px;
+  height: 10px;
+  border: 2px solid red;
 }
 
 .body-etapa-1 {
@@ -27,7 +44,7 @@ body {
 }
 
 .etapa-1-section-1 {
-  border: 2px solid red;
+  border-radius: 10px;
   width: 30%;
   height: auto;
   background-color: #202020;
